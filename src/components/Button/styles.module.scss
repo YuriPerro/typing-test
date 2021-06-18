@@ -1,0 +1,19 @@
+.containerBtn {
+    .btnStart {
+      width: 25rem;
+      height: 3.5rem;
+      margin-top: 30px;
+      background-color: transparent;
+      color: var(--primary);
+      font-weight: 600;
+      font-size: 1rem;
+      border: 2px solid var(--primary);
+      cursor: pointer;
+    }
+
+    .btnStart:hover {
+      background-color: var(--primary);
+      border: none;
+      color: whitesmoke;
+    }
+  }

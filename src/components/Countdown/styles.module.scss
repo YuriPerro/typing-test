@@ -1,0 +1,39 @@
+.countdownContainer {
+  display: flex;
+  align-items: center;
+  font-family: Rajdhani;
+  font-weight: 600;
+  color: black;
+
+  > span {
+    font-size: 6.25rem;
+    color: #f0f1f3;
+    margin: 0 0.5rem;
+  }
+
+  > div {
+    width: 120px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background: var(--white);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    font-size: 5.5rem;
+    text-align: center;
+
+    span:first-child {
+      border-right: 1px solid #f0f1f3;
+      color: var(--primary);
+    }
+
+    span:last-child {
+      border-left: 1px solid #f0f1f3;
+      color: var(--primary);
+    }
+
+    span {
+      flex: 1;
+    }
+  }
+}
